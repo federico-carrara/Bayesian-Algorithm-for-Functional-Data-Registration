@@ -1,4 +1,6 @@
 # Bayesian-Stats-Project2022
+Repository containing the R scripts written for the project of the course of Bayesian Statistics at Polimi
+
 ### *Content of the repository*
 1) *Import_data.R* : the script contains functions to read data and to prepare the dataset for the analysis.
 2) *Auxiliary_Functions.R* : the script contains several functions which performs repetitive tasks (e.g. computation of quantities for the full conditional, evaluation of some functions). In particular you can find the functions implementing the different versions of the Metropolis-Hastings step.
