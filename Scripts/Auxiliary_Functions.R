@@ -25,7 +25,7 @@ get_Phi_2 <- function(S_vect)
 }
 
 # Function to compute tau_ij(t) for all the patients
-get_tau <- function(mat_basis, coeff_vect, N_patients, N_coeff) # coeff_vect è il vettore delle phi di tutti i pazienti 
+get_tau <- function(mat_basis, coeff_vect, N_patients, N_coeff) # coeff_vect Ã¨ il vettore delle phi di tutti i pazienti 
 {
   tau_mat <- matrix(0, nrow = N_patients, ncol = nrow(mat_basis))
   for(i in 1:N_patients)
@@ -73,7 +73,7 @@ eval_model <- function(basis_set, tau_mat, curr_a, curr_c,
 }
 
 # Get the list of matrices for update of Beta
-# - series_len è la lunghezza della time series di ciascun paz. (Nij)
+# - series_len Ã¨ la lunghezza della time series di ciascun paz. (Nij)
 # - j is the index of the group
 # - group_idxs is a vector of the indices delimiting the groups
 get_M_j <- function(basis_set, tau_mat, curr_a, j, group_idxs, 
