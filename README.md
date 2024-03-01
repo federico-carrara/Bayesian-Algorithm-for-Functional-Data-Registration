@@ -1,4 +1,4 @@
-# Bayesian registration of functional data
+# Bayesian methods for Functional Data Registration
 *From the group project for the course of Bayesian Statistics at Polimi*
 
 Functional data analysis (FDA) is a sophisticated and powerful branch of statistics that is based on representing a series of data as a function (e.g., time series). FDA provides many robust methods to compute the uncertainty on the measurements and to perform statistical tests on data.
